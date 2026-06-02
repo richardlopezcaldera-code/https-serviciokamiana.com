@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# Single-page app: serve the shell for every route so TanStack Router
+# can handle client-side navigation and deep links.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
